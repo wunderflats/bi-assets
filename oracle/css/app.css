@@ -1,0 +1,411 @@
+/* LEAFLET STYLING */
+
+.reference-object-popup {
+  bottom: -42px !important;
+  left: -178px !important;
+}
+
+.leaflet-popup-content-wrapper,
+.object-popup .leaflet-popup-tip {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+}
+
+.reference-object-popup .leaflet-popup-tip-container {
+  left: 100%;
+  margin: -40px 0 0 -10px;
+  transform: rotate(90deg) scaleY(-1);
+}
+
+.hyperlink-wrapper {
+  margin: 4px 0 5px -2px;
+}
+
+.hyperlink-logo {
+  width: 15px;
+  height: 15px;
+  display: inline;
+}
+
+.hyperlink-wrapper a {
+  position: absolute;
+  margin: 2px 0 0 5px;
+}
+
+.active-signal {
+ margin-top: 8px;
+}
+
+.active-light-active,
+.active-light-inactive {
+  border-radius: 50%;
+  height: 11px;
+  width: 11px;
+  position: relative;
+  display: inline-block;
+  margin: 6px 5px 0 0;
+}
+
+.active-text {
+  position: absolute;
+  font-size: 12px !important;
+  margin: -21px 0 0 17px !important;
+  /*margin: 3px 0 0 0 !important;*/
+  display: inline-block;
+}
+
+.active-light-active {
+  background-image: radial-gradient(ellipse at 50px 10px , #ffffff 0%, #fff 5%, #00ff00 100%);
+}
+
+.active-light-inactive {
+  background-image: radial-gradient(ellipse at 50px 10px , #ffffff 0%, #fff 5%, #ef3325 100%);
+}
+
+.public-transport {
+  display: none;
+}
+
+.route-icon {
+  height: 18px;
+  margin: -1px 5px 0 0;
+}
+
+.route-popup .leaflet-popup-content {
+  margin: 8px 2px 8px 10px;
+}
+
+.postcode-tooltip {
+  font-size: .7em;
+  padding: 2px;
+  background-color: #ffffff75;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12);
+}
+
+/* GENERAL STYLING*/
+
+.object-data {
+  display: none;
+}
+
+.data-dictionary {
+  margin: 8px 0 32px 57px !important;
+  font-size: 14.5px !important;
+}
+
+.editor-chart:not(.text-block-container),
+.mode-embed .mode-object.editor-table,
+.mode-placeholder {
+  background-color: #fff;
+}
+
+.reference-table .col2,
+.reference-table .col3,
+.reference-table .col19,
+.object-frame .col1,
+.object-frame .col2 {
+  display: None;
+}
+
+.apartment-location {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.apartment-location .python-results-text {
+  font-family: "Graphik", Helvetica, Arial, sans-serif;
+}
+
+.apartment-location-address {
+  width: 65%;
+  margin: -45px 0 -100px 0 !important;
+  font-size: 2.2em;
+  color: black;
+}
+
+.apartment-location .mode-object.editor-chart {
+  height: 75px;
+  margin: 3px 0 0 5px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+}
+
+.apartment-location .chart-header {
+  height: 0;
+}
+
+.apartment-location .chart-content {
+  margin: 8px 245px 0 0;
+}
+
+.apartment-location .editor-chart:not(.text-block-container) {
+  border: None;
+}
+
+.apartment-location .mode-python {
+  font-size: 27px;
+}
+
+.data-source-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.seasonal-img,
+.reference-img {
+  margin: 21px 0 0 15px;
+}
+
+/* MODEL OUTPUT STYLING */
+
+.pricing-occupancy-header {
+  margin: 50px 0 35px 0;
+}
+
+.pricing-container {
+  margin-top: 60px;
+  height: auto;
+}
+
+.pricing-left {
+  margin-left: 3px;
+  width: 49% !important;
+}
+
+.pricing-result .python-results-text {
+  margin-top: 17px;
+  font-size: 1.8em;
+}
+
+.pricing-result .in-place-edit {
+  margin: 15px 0 0 -3px;
+  font-size: 1.4em;
+}
+
+/* pricing sm header styling*/
+
+.pricing-out-sm-header {
+  margin-top: 50px;
+}
+
+.pricing-result-sm-header {
+  height: 52px;
+  text-align: center;
+  margin-top: -15px;
+}
+
+.row-border {
+  border-bottom: 1px solid #00000057;
+  margin: 10px 0 0 0;
+}
+
+.pricing-result-sm-header .in-place-edit {
+  font-size: 1.05em;
+  background-color: #f1f2f5d4;
+}
+
+.pricing-result-sm-header .chart-header {
+  height: 75px;
+  margin: -15px;
+}
+
+.pricing-result-sm-header .mode-python {
+  height: 0px;
+}
+
+/* pricing sm styling */
+
+.pricing-out-sm {
+  margin-top: 15px;
+}
+
+.pricing-result-sm {
+  height: 40px;
+  text-align: center;
+}
+
+.pricing-result-sm .python-results-text {
+  font-size: 1.5em;
+  margin-top: -2px;
+}
+
+.pricing-result-sm .chart-header {
+  height: 15px;
+}
+
+.pricing-result-sm .mode-python {
+  max-height: 37px;
+}
+
+/* pricing med styling */
+
+.pricing-out-med {
+  background-image: linear-gradient(30deg, #4f2892, #4f2892 20%, #a61687 75%, #a61687);
+  border-radius: 8px;
+  height: 180px;
+}
+
+.pricing-result-med {
+  padding-left: 10px !important;
+  margin-top: 7px;
+  height: 205px;
+  text-align: center;
+}
+
+.pricing-result-med .mode-grid.container {
+  padding: 0 6px;
+}
+
+.pricing-result-med .mode-python {
+  max-height: 80px;
+}
+
+.pricing-result-med .chart-header {
+  height: 65px;
+  margin-top: 10px;
+}
+
+.pricing-result-med .chart-content {
+  height: 155px;
+}
+
+.value-range {
+  padding-right: 10px !important;
+  font-size: 10.5px;
+}
+
+.value-range .chart-header {
+  margin-top: 0;
+}
+
+.value-range .chart-content {
+  height: 165px;
+}
+
+/* PRICE OCCUPANCY CHART*/
+
+.occupancy-data {
+  margin-top: 30px;
+}
+
+.tool-description {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 30px 0 15px;
+  font-size: 14px;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.occupancy-range {
+  padding: 0 7px !important;
+}
+
+.pricing-text {
+  padding: 0 10px;
+  font-size: 14px;
+}
+
+.occupancy-text {
+  padding: 20px 10px;
+  font-size: 14px;
+}
+
+.object-postcode img {
+  width: 95%;
+  margin-left: 20px;
+  border-radius: 7px;
+  filter: grayscale(97%) sepia(12%) hue-rotate(0deg) saturate(40%) contrast(1.1) brightness(1);
+  max-height: 420px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+}
+
+/* REFERENCE DATA STYLING */
+
+.reference-data {
+  margin-top: -50px;
+}
+
+.reference-summary {
+  margin-top: 35px;
+}
+
+.reference-result .chart-header {
+  height: 72px;
+  margin-top: -10px;
+  font-size: 1.2em;
+}
+
+.reference-table {
+  margin-top: 70px;
+}
+
+.reference-table .chart-content {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
+}
+
+/* SEASONAL DATA STYLING*/
+
+.seasonal-data,
+.object-data {
+  margin-top: 45px;
+}
+
+.seasonal-table {
+  margin-top: 25px;
+}
+
+/*Object Data Frame*/
+
+.object-frame {
+  margin: 25px 0;
+}
+
+/* EXPECTED VALUES STYLING */
+
+.expected-values {
+  margin: 65px 0 100px 0;
+}
+
+.expected-result .chart-header {
+  height: 0;
+}
+
+.expected-result .mode-python {
+  max-height: 100px;
+}
+
+.expected-result .python-results-text {
+  margin-top: 32px;
+  font-size: 2.1em;
+  color: #4f2892;
+  font-weight: 550;
+}
+
+.bounded-pricing {
+  margin-top: 60px;
+}
+
+.bounded-pricing .chart-header {
+  margin-bottom: 15px;
+}
+
+.bounded-pricing table {
+  margin: 0 0 15px 19px !important;
+  border-collapse: separate;
+  border-spacing: 15px 0px;
+}
+
+.bounded-pricing td,
+.bounded-pricing th {
+  font-size: 1.20em;
+  text-align: center !important;
+  margin-left 5px;
+}
