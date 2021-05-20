@@ -16,7 +16,7 @@ function getDataFromQuery(queryName) {
 }
 
 function icon_sourcer(transit_type, route) {
-  url_stem = 'https://raw.githubusercontent.com/alextruesdale/oracle_modules/master/transport/';
+  url_stem = 'https://raw.githubusercontent.com/wunderflats/bi-assets/main/oracle/img/transport/';
   if (transit_type == 'ubahn') {
     return url_stem + 'ubahn/Berlin_' + route + '.svg?sanitize=true';
   } else if (transit_type == 'sbahn') {
@@ -140,7 +140,7 @@ function icon_sourcer(transit_type, route) {
           } else if (attribute == 'Online' && attributes_dict[attribute][i] == 'True') {
             subAttributes.push([
               "<div class='hyperlink-wrapper'>",
-                "<img class='hyperlink-logo' src='https://raw.githubusercontent.com/alextruesdale/oracle_modules/master/images/wf_logo.png'>",
+                "<img class='hyperlink-logo' src='https://raw.githubusercontent.com/wunderflats/bi-assets/main/oracle/img/wf_logo.png'>",
                 "<a href='", attributes_dict['Web Link'][i], "' target='_blank'>Listing Page</a>",
               "</div>"
               ].join(''));
@@ -209,14 +209,14 @@ function icon_sourcer(transit_type, route) {
 
 
       var objectIcon = L.icon({
-        iconUrl: 'https://raw.githubusercontent.com/alextruesdale/oracle_modules/master/images/oracle_object_icon.png',
+        iconUrl: 'https://raw.githubusercontent.com/wunderflats/bi-assets/main/oracle/img/oracle_object_icon.png',
         iconSize: [27, 29],
         iconAnchor: [14, 27],
         popupAnchor: [1, -30]
       });
 
       var wfIcon = L.icon({
-        iconUrl: 'https://raw.githubusercontent.com/alextruesdale/oracle_modules/master/images/wf_logo.png',
+        iconUrl: 'https://raw.githubusercontent.com/wunderflats/bi-assets/main/oracle/img/wf_logo.png',
         iconSize: [23, 25],
         iconAnchor: [11, 21],
         popupAnchor: [-50, 0]
