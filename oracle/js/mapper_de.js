@@ -197,14 +197,14 @@ function icon_sourcer(transit_type, route) {
         attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
         maxZoom: 20,
         id: 'mapbox/streets-v11',
-        accessToken: 'pk.eyJ1IjoiYWxleHRydWVzZGFsZSIsImEiOiJjazVmaWJ2NWYyOTBkM2pyZnBpNzdmaW82In0.mDjb2KOatX3l1o6Q1xdRGg'
+        accessToken: 'pk.eyJ1Ijoid2YtYmktZGF0YSIsImEiOiJja293bmtxdWUwNmdqMnB0NjR3YThtdWw3In0.3zBPJeYQLGwi2SAOxGw_rQ'
       });
 
       var grayscale = L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
         attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
         maxZoom: 20,
         id: 'mapbox/light-v10',
-        accessToken: 'pk.eyJ1IjoiYWxleHRydWVzZGFsZSIsImEiOiJjazVmaWJ2NWYyOTBkM2pyZnBpNzdmaW82In0.mDjb2KOatX3l1o6Q1xdRGg'
+        accessToken: 'pk.eyJ1Ijoid2YtYmktZGF0YSIsImEiOiJja293bmtxdWUwNmdqMnB0NjR3YThtdWw3In0.3zBPJeYQLGwi2SAOxGw_rQ'
       });
 
 
